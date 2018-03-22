@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Audiovisualizer</title>
+        <link href="https://cdn.jsdelivr.net/npm/normalize.css@7.0.0/normalize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link rel= "stylesheet" href="main.css">
+        <link rel= "stylesheet" href="pageStyles.css">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js'></script>
+    </head>
+
+<body>
+
+  <!-- / Begin Body -->
+  <div class='content'>
+    <!-- / Introduction Block -->
+    <div class='title'>
+      <h1>MOOD VISUALIZER</h1>
+      <p>How can music and color interact to influence your state of mind?</p>
+      <div class='link'>
+        <a href='https://kaekae13.github.io/MoodVisualizer/index.html' target='_blank'>
+          <div class='slide'>
+            <div class='arrow'>
+              <div class='stem'></div>
+              <div class='point'></div>
+            </div>
+          </div>
+          <img id= 'visualizerIcon' src="images/visualizer.svg" alt="Music Player Page Icon">
+        VISUALIZER
+        </a>
+      </div>
+    </div>
+</div>
+    <!-- /////////// Begin Dropdown //////////// -->
+    <div class='dropdown_wrapper'>
+      <input id='About' name='radio' type='radio'>
+      <label for='About'>
+        <span>ABOUT</span>
+        <div class='arrow' id='arrow'></div>
+        <div class='bar'></div>
+        <div class='dropdown_content'>
+          <ul>
+            <li class='list1'><a href="#page1">Mission Statement<a></li>
+            <li><a href="#page2">Instructions</a></li>
+          </ul>
+        </div>
+      </label>
+      <input id='Process' name='radio' type='radio'>
+
+      <label for='Process'>
+        <span>RESEARCH</span>
+        <div class='arrow' id='arrow'></div>
+        <div class='bar'></div>
+        <div class='dropdown_content'>
+          <ul>
+            <li class='list2'><a href="#page3">Color and Sound</a></li>
+            <li><a href="#page4">Sources</a></li>
+          </ul>
+        </div>
+      </label>
+    <!-- /////////// End Dropdown //////////// -->
+  </div>
+
+<!-- Page 1 -->
+<article class='page' id='page1'>
+  <h3>MISSION STATEMENT</h3>
+  <p>The concept behind this interface stems from personal experience and observation. Music is something that I myself constantly use to destress and relax - I find that I cannot go a day without listening to my favorite tracks as I go about my daily routine.</p>
+  <p>I drew upon my love for music to consider how it could be paired with different visual aspects to create an interactive interface that gives users a new way of visualizing sound movement.</p>
+  <p>There are a variety of different music player applications that already exist today - Bandcamp, Soundcloud, and Spotify, to name a few. The primary function of these applications is in allowing users to listen to and save tracks, share these tracks, and compile playlists, as well as interacting with other artists or users. There is no visual or creative aspect to these applications.</p>
+  <p>Thus, I wanted to create an interface that transforms typical music listening into a dynamic graphic and creative experience. The Mood Visualizer is an interactive audiovisualizer that allows people to select a type of visual and color, as well as upload their own mp3 track.</p>
+  <p>Especially in a day and age where technology is so prevalent, people often listen to music while viewing social media apps, responding to emails and texts, and other such mundane tasks - the act of listening to music becomes automatic and subconscious action. Through the Mood Visualizer, I aim to prompt people to truly focus more on the music itself and even if for just a few moments, forget the busy noise of the world that surrounds them. The conscious act of choosing and uploading an audio file, combined with stylizing the audio visualizer, forces users to look at the visuals as they listen to their music - making them more aware of the music and thus making themselves more susceptible to the therapeutic and calming effects of music.</p>
+</article>
+<!-- /////////// End Page 1 //////////// -->
+
+<!-- Page 2 -->
+<article class='page' id='page2'>
+  <h3>INSTRUCTIONS</h3>
+  <ul>
+    <li>1. Press play to begin the audiovisualizer (a default track is attached to the interface).</li>
+    <li>2. Select one of the three choices for the type of audiovisualizer that will be displayed</li>
+    <li>3. Select a color from the color picker menu (located under the audio control buttons).</li>
+    <li>4. Upload your own audio file (mp3) if you wish!</li>
+  </ul>
+</article>
+<!-- /////////// End Page 2 //////////// -->
+
+<!-- Page 3 -->
+<article class='page' id='page3'>
+  <h3>THE PSYCHOLOGY</h3>
+  <p>Certain colors are associated with certain moods and have the power to affect the emotional and mental state of people. Music is also a common source of relaxation for people that feel a need to destress and relieve themselves of anxiety or negative emotions. My research centered around findings that brought forth the question of how music and color can work together to create a soothing yet effective and powerful way for people to connect with their emotions.</p>
+  <p>The meanings of colors have developed culturally and are commonly associated with emotions and ideas that constantly affect our behavior and emotions, depending primarily upon the the saturation and brightness of a color (saturation refers to the pureness of a color while brightness refers to how light or dark a color is). Colors that are less saturated but bright have been proven to induce feelings of relaxation while those that are more saturated while less bright are energizing and dynamic. Color also physiologically impacts the brain, directly influencing anxiety, pulse, blood flow, and arousal - even affecting our ability to recall words or memories. Studies have established associations between specific colors and emotions, as well as common cultural meanings that have, over time, been attached to certain colors, for example:</p>
+
+  <ul>
+      <li><strong>PINK</strong> - can be calming depending on context</li>
+      <li><strong>RED</strong> - strength, boldness, arousing, stimulates excitement, passion, aggression, intense</li>
+      <li><strong>ORANGE</strong> - arousing, enthusiasm, fun, energy, warmth</li>
+      <li><strong>YELLOW</strong> - joy, excitement, energizing, optimism, youth, intellect, comfort, liveliness, conflict</li>
+      <li><strong>GREEN</strong> - creativity, productivity, positivity, calming, healing, success, hope</li>
+      <li><strong>BLUE</strong> - trustworthiness, relaxation, calming, stability, loyalty, stability, tranquility
+      <li><strong>VIOLET</strong> - sophistication, royalty, luxury, spirituality</li>
+      <li><strong>BLACK</strong> - aggressive, power, mystery, professional</li>
+      <li><strong>GREY</strong> - neutral, practical, quiet</li>
+      <li><strong>WHITE</strong> - purity, cleanliness, innocence</li>
+  </ul>
+
+
+  <h4>SOUND AND EMOTION</h4>
+  <section id='music'>
+    <p>Music has the ability to trigger the pleasure centers of our brain to release the neurotransmitter dopamine, which induces emotions of happiness. Other studies have also proven that listening to music improves physical health to a certain degree, helping the body to produce increasing amounts of immunity-boosting antibodies and cells that protect against harmful bacteria and viruses. Music is also commonly used in a variety of different treatment scenarios for those with mental illnesses and other health conditions-more specifically, in the areas of schizophrenia, trauma, and depression. Music acts as tool/medium through which patients can process emotions of grief, trauma, etc. but also regulates anxiety by acting as a calming agent.</p>
+
+    <p>Music therapy programs are generally geared toward the four primary interventions of lyric analysis, improvisational music playing, songwriting, active music listening. Lyric analysis provides patients with the opportunity to identify with certain song lyrics that may speak strongly to their personal experiences. Improvisation music playing refers to the actual playing of musical instruments and the ways in which individuals can emotionally express themselves through a variety of sounds and rhythms. Similarly, the songwriting intervention combines these two aspects by allowing individuals to creatively express their emotions as they reflect on their own experiences in an emotionally gratifying way.</p>
+
+    <p>To be more specific, however, the Mood Visualizer engages the process of active music listening, which is the primary intervention used by therapists to regulate patient mood. The rhythmic and repetitive nature of music activates the neocortex of the brain, an area commonly associated with reducing impulsive decision-making and producing calming and restful emotion. The Mood Visualizer, through color, music, and visual selection choices demands active music listening - users must make conscious choices when using the application, and thus, they are made more conscious of the music they are listening to. The interaction of color with music reinforces the emotional and psychological meanings that are attached to the chosen color and music file.</p>
+</section>
+</article>
+<!-- /////////// End Page 3 //////////// -->
+
+<!-- Page 4 -->
+<article class='page' id='page4'>
+  <h3>SOURCES</h3>
+  <ul>
+    <li><a href="https://www.ashford.edu/online-degrees/student-lifestyle/how-does-music-affect-your-brain">1. Ashford Education - How does Music Affect Your Brain</a></li>
+    <li><a href="http://www.funderstanding.com/brain/your-brain-on-color/">2. Funderstanding - Your Brain On Color</a></li>
+    <li><a href="https://www.nami.org/Blogs/NAMI-Blog/December-2016/The-Impact-of-Music-Therapy-on-Mental-Health">3. National Alliance on Mental Illness - Music Therapy</a></li>
+    <li><a href="https://www.psychologytoday.com/blog/people-places-and-things/201504/the-surprising-effect-color-your-mind-and-mood">4. Psychology Today - The Surprising Effect of Color on Your Mind and Mood</a></li>
+    <li><a href="https://www.scienceofpeople.com/color-psychology/">5. Science of People - Color Psychology</a></li>
+  </ul>
+</article>
+<!-- /////////// End Page 4 //////////// -->
+
+  <!-- / My Footer -->
+<footer id='footer'>
+        <a href="https://validator.w3.org/check?uri=referer">VALID HTML5 |</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">VALID CSS |</a>
+        <a href="https://p5js.org/reference/#/libraries/p5.sound">Made with p5 SOUND</a>
+</footer>
+
+
+</body>
+</html>
