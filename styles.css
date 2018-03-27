@@ -59,7 +59,6 @@ body .link a {
   font-size: 0.75em;
   font-weight: 600;
   border-radius: 4px;
-
 }
 
 body .link a .slide {
@@ -168,41 +167,15 @@ body .link a:hover > .slide .arrow {
   width: 100%;
 }
 
-#btnMenu, #chooseAudio, #visualizers {
+#btnMenu, #visualizers {
   display: inline-block;
   vertical-align: middle;
 }
 
-#chooseAudio input {
-  font-size: 0.75em;
-  font-family: 'Quicksand', sans-serif;
-  border: 1px #2a394f;
-}
-
-#chooseAudio {
-  margin-left: 0;
-  margin-right: 0;
-  padding-right: 0;
-}
-
 #controlBtn {
   display: inline-block;
-  width: 200px;
   margin: 0;
   padding: 0;
-}
-
-#audioFile, .loader {
-  display: inline-block;
-  text-transform: capitalize;
-  letter-spacing: 1px;
-  color: #2a394f;
-}
-
-#audioFile {
-  width: 200px;
-  border: 1px #2a394f;
-  color: #2a394f;
 }
 
 #controlBtn {
@@ -271,22 +244,25 @@ body .link a:hover > .slide .arrow {
   background-color: white;
   letter-spacing: 2px;
   font-size: 0.75em;
-  padding: 2.5%;
-  margin-right: 3px;
+  padding: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
+  margin-right: 5px;
   vertical-align: middle;
   display: inline-block;
   margin-bottom: 3%;
 }
 
 #visualizers {
-  margin-left: 0;
+  margin-left: 3%;
   margin-right: 6%;
-  width: 200px;
+  width: 300px;
 }
 
 #visualizers, .link {
   display: inline-block;
   vertical-align: middle;
+  align-items: center;
 }
 
  /* color picker buttons */
