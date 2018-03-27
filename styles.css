@@ -15,7 +15,7 @@ body {
 /* typography */
 h1 {
   color: #2a394f;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-top: 5%;
   text-align: center;
   letter-spacing: 3px;
@@ -158,7 +158,7 @@ body .link a:hover > .slide .arrow {
 
 /* audio control buttons */
 #btnMenu {
-  padding-top:1%;
+  padding-top:1.25%;
   margin-top: 0;
   text-align: center;
   display: flex;
@@ -345,8 +345,8 @@ body .link a:hover > .slide .arrow {
    text-align: center;
    color: #2a394f;
    letter-spacing: 2px;
-   padding-top: 2%;
-   padding-bottom: 1.5%;
+   padding-top: 1.25%;
+   padding-bottom: 0;
  }
 
 a:link {
